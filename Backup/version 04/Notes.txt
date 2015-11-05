@@ -1,0 +1,24 @@
+Naming convention:
+method name start with a verb. (readFile, writeFile)
+class name using its functionality in a generalized name.(TextWriter, TextReader, TextCreater)
+Variable name should start with small case.
+Don’t declare two variables in a same line.
+
+Modifiers:
+Use private for variables and methods that is not called outside the class.
+Avoid accessing variables of a class outside directly, instead put a getter method for that variable and use it.
+
+default modifier should not be used anywhere in program
+local variables has no access modifiers
+member variables must be always private unless it is used outside the class
+use getter and setter method to access the private variables
+
+Collections:
+Its size is growable and not like array whose size is fixed.
+It can hold different objects and primitive data types whereas array is a collection of members of same data type.
+Collections can be generalized using Generics which tells the collection to accept only specific time of objects to store in it.
+Avoid using arrays for holding objects, instead use list.
+ 
+Avoid declaring variables inside loop as it may allocate space for variable in each iteration and hence it affects performance.
+Don’t repeat same set of coding in any place. Instead create a common method and use it.
+Try to generalize the classes and separate it from business logic and thereby you can use the generalize class in many other areas.
